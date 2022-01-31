@@ -1,0 +1,84 @@
+.tenzin__maintenance {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+  background: -moz-radial-gradient(
+    circle at 3% 50%,
+    rgba(0, 93, 157, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle at 3% 50%,
+    rgba(0, 93, 157, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: -o-radial-gradient(
+    circle at 3% 50%,
+    rgba(0, 93, 157, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: -ms-radial-gradient(
+    circle at 3% 50%,
+    rgba(0, 93, 157, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: radial-gradient(
+    circle at 3% 50%,
+    rgba(0, 93, 157, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.tenzin__maintenance-container {
+  text-align: center;
+}
+.tenzin__maintenance h1 {
+  color: white;
+  font-size: 50px;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  text-align: center;
+}
+
+.tenzin__maintenance p {
+  color: wheat;
+  font-size: 20px;
+  padding: 1rem;
+}
+
+.tenzin__maintenance-icon {
+  font-size: 60px;
+  color: antiquewhite;
+}
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1)
+    0.2s both;
+  animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s
+    both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
